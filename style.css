@@ -1,0 +1,11 @@
+.hi::selection {
+    color: green;
+    background: blue;;
+}
+.hi::after {
+    content: "hello";
+}
+
+.hi:hover::after {
+    background-color: #333;
+  }
